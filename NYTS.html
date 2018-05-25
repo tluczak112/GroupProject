@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>New York Times Search</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script src="https://use.fontawesome.com/95f9760e34.js"></script>
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo"><i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search</a>
+    
+    </div>
+  </header>
+  
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+       <h1> <i class="fa fa-wheelchair" aria-hidden="true"></i> Search Parameters</h1> 
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="searchTerm">Search Term</label>
+            <input type="text" id="searchTerm" name="searchTerm" placeholder="News" required="required">
+          </li>
+          <li>
+            <label for="numberOfRecords">Number of Records to Retrieve</label>
+            <input type="numberOfRecords" id="numberOfRecords" name="numberOfRecords" placeholder="#" required="required">
+          </li>
+          <li>
+            <label for="startYear">Start Year (Optional)</label>
+            <textarea id="startYear" name="startYear" required="required"></textarea>
+          </li>
+          <li>
+            <label for="endYear">End Year (Optional)</label>
+            <textarea id="endYear" name="endYear" required="required"></textarea>
+        </li>
+        </ul>
+        <button class="btn btn-submit" type="submit"> <i class="fa fa-search" aria-hidden="true"></i> Submit</button>
+        
+        <button class="btn btn-clear" type="submit"> <i class="fa fa-trash" aria-hidden="true"></i> Clear form</button>
+      </form>
+
+      <br>
+
+      <div id = "top-articles" class="container">
+          <section class="main-section">
+              <h1> <i class="fa fa-rebel" aria-hidden="true"></i> Top Articles</h1>
+
+              <ul class="list-group">
+                  <ul class="list-group-item active">Cras justo odio <hr> </ul>
+                  <ul class="list-group-item">Dapibus ac facilisis in <hr> </ul>
+                  <ul class="list-group-item">Morbi leo risus <hr> </ul>
+                  <ul class="list-group-item">Porta ac consectetur ac <hr> </ul>
+                  <ul class="list-group-item">Vestibulum at eros <hr> </ul>
+                </ul>
+        
+        
+
+      
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+    
+      Copyright 2018 &copy; 
+    </div>
+  </footer>
+</body>
+
+</html>
